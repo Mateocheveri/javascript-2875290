@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(215, 250, 235);
+    margin: 120px auto;
+    overflow:hidden;
+    position: relative;
+}
+
+.sol{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(246, 115, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom:150px;
+    right: 40%;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-name: sol;
+}
+.nubeuno{
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    bottom: 250px;
+    right: 400px;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-name: nubeuno;
+}
+.nubedos{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    bottom: 200px;
+    right: 400px;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-name: nubedos;
+}
+.nubetres{
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    bottom: 400px;
+    right: 250px;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-name: nubetres;
+}
+.nubecuatro{
+    width: 850px;
+    height: 350px;
+    position: absolute;
+    bottom: 450px;
+    right: -250px;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-name: nubecuatro;
+}
+
+.montaña{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    bottom: 50px;
+    right: 30%;
+}
+
+ @keyframes sol{
+    0%{
+        bottom: 150px;
+    }
+
+    50%{
+       
+        bottom: 450px;
+        background-color: rgb(246, 115, 0);
+        
+    }
+    100%{
+       
+        bottom: 150px;
+        background-color: rgba(246, 115, 0, 0.733);
+    }
+}
+@keyframes nubeuno{
+    from{
+       
+        right: 400px;
+
+    }
+    to{
+        right: -400px;
+    }
+}
+@keyframes nubedos{
+    from{
+        right: 600px;
+
+    }
+    to{
+        right: -300px;
+
+    }
+}
+@keyframes nubetres{
+    from{
+        right: -300px;
+
+    }
+    to{  
+        right: 500px;
+
+    }
+}
+@keyframes nubecuatro{
+    from{
+        right: 400px;
+
+    }
+    to{
+        right: -500px;
+
+    }
+}
+
+
