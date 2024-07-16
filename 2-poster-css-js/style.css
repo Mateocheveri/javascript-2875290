@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 1000px;
+    height: 700px;
+    background-color: wheat;
+    margin: 120px auto;
+    overflow:hidden;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+}
+
+
