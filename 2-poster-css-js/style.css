@@ -1,15 +1,242 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0); 
 }
 .container{
-    width: 1000px;
-    height: 700px;
+    width: 623px;
+    height: 900px;
     background-color: wheat;
     margin: 120px auto;
     overflow:hidden;
-    position: relative;
-    cursor: pointer;
-    z-index: 0;
+    position: relative; 
+} 
+.btn{
+    
+}
+.fondo{
+    height: 900px;
+    width: 623px;
+    position: absolute;
+    z-index: 1;
+}
+.monstruo{
+    height: 900px;
+    width: 623px;
+    position: absolute;
+    bottom:  52px;
+    z-index: 3;
+    /* animation-name:  monstruo;
+    animation-duration: 5s; */
+}
+.suelo{
+    height: 20px;
+    width: 623px;
+    position: absolute;
+    bottom: 410px;
+    z-index: 4;
+
+}
+.personaje{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    bottom: -25px;
+    right: 40px;
+    z-index: 5;
+    /* animation-name: personaje;
+    animation-duration: 5s; */
+}
+.titulo{
+    width: 323px;
+    height: 250px;
+    position: absolute;
+    bottom: -125px;
+    right: 180px;
+    z-index: 6;
+    /* animation-name: titulo;
+    animation-duration: 5s; */
+
+}
+.particulauno{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60px;
+    right: 60%;
+    z-index: 2;
+    /* animation-iteration-count: infinite;
+    animation-name: particulauno;
+    animation-duration: 7s; */
+
+}
+.particulados{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom:60px;
+    right: 90%;
+    z-index: 2;
+    /* animation-iteration-count: infinite;
+    animation-name: particulados;
+    animation-duration: 10s; */
+
+}
+.particulatres{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom:60px;
+    right: 20%;
+    z-index: 2;
+    /* animation-iteration-count: infinite;
+    animation-name: particulatres;
+    animation-duration: 9s; */ 
+}
+.particulacuatro{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom:60px;
+    right: 40%;
+    z-index: 2;
+    /* animation-iteration-count: infinite;
+    animation-name: particulacuatro;
+    animation-duration: 8s; */
+}
+.particulacinco{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom:60px;
+    right: 10%;
+    z-index: 2;
+    /* animation-iteration-count: infinite;
+    animation-name: particulacinco;
+    animation-duration: 8s; */
+}
+.tentaculo{
+    position: absolute;
+    bottom: 60px;
+    right: 50px;
+    z-index: 3;
+    /* animation-name: tentaculos;
+    animation-duration: 5s; */
 }
 
+
+@keyframes particulauno {
+    0%{
+        bottom: 100px;
+        background: rgba(0, 0, 0, 0.281);
+    }
+    40%{
+        background: black;
+    }
+    100%{
+        bottom: 900px;
+    }
+}
+@keyframes particulados {
+    0%{
+        bottom: 40px;
+        background: rgba(0, 0, 0, 0.281);
+    }
+    50%{
+        background: black;
+    }
+    100%{
+        bottom: 900px;
+    }
+}
+@keyframes particulatres {
+    0%{
+        bottom: 10px;
+        background: rgba(0, 0, 0, 0.281);
+    }
+    50%{
+        background: black;
+    }
+    100%{
+        bottom: 900px;
+    }
+}
+@keyframes particulacuatro {
+    0%{
+        bottom: 80px;
+        background: rgba(0, 0, 0, 0.281);
+    }
+    50%{
+        background: black;
+    }
+    100%{
+        bottom: 900px;
+    }
+}
+@keyframes particulacinco {
+    0%{
+        bottom: 80px;
+        background: rgba(0, 0, 0, 0.281);
+
+    }
+    50%{
+        background: black;
+    }
+
+    100%{
+        bottom: 900px;
+    }
+}
+
+@keyframes monstruo{
+    from{
+        bottom: 530px;
+    }
+    to{
+        bottom:  52px;
+    }
+}
+@keyframes personaje{
+    from{
+        right: 200px;
+        opacity: 0%;
+    }
+    to{
+        right: 40px;
+        opacity: 100%;
+        
+    }
+}
+@keyframes titulo{
+    from{
+        bottom: -400px;
+        opacity: 0%;
+
+    }
+    to{
+        bottom: -125px;
+        opacity: 100%;
+
+    }
+}
+@keyframes tentaculos{
+    from{
+        bottom: -200px;
+    }
+    to{
+        bottom: 60px;
+    }
+}
+
+
+
+ 
 
