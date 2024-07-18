@@ -12,7 +12,7 @@ const btn = document.querySelector('.btn');
 
 
 function mover(){
-    uno.style.animationIterationCount = 'infinite';
+
 
     monstruo.style.animationName = 'monstruo';
     monstruo.style.animationDuration = '5s';
