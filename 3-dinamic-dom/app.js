@@ -39,9 +39,7 @@ function borrarElemento(e){
     n = 0;
 }
 function tachar(e){
-    if(e.target.innerText == ''){
-        e.target = main.style.textDecoration = 'line-through';
-    }
+    e.target.style.textDecoration = 'line-through';
 }
 
 btncrear.addEventListener('click', crear);

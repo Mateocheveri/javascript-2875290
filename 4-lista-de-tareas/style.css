@@ -1,0 +1,42 @@
+
+
+h1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.listarea{
+    width: 500px;
+    padding: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-radius:10px;
+    border: 5px solid rgb(117, 221, 235);
+}
+#crear{
+    width: 300px;
+    height: 20px;
+    border-radius: 15%;
+    border: 3px solid yellowgreen;
+    background-color: whitesmoke;
+
+}
+#btncrear{
+    width: 50px;
+    height: 20px;
+    border-radius: 40%;
+    background-color:antiquewhite;
+    cursor: pointer;
+}
+
+.container{
+    width: 400px;
+    padding: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-radius:20px 20px ;
+    border: 5px solid rgb(15, 177, 226);
+}
