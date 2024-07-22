@@ -20,8 +20,8 @@ function mover(){
     personaje.style.animationName = 'personaje';
     personaje.style.animationDuration = '5s';
 
-    titulo.style.animationname = 'titulo';
-    titulo.style.animationduration = '5s';
+    titulo.style.animationName = 'titulo';
+    titulo.style.animationDuration = '5s';
 
     uno.style.animationIterationCount = 'infinite';
     uno.style.animationName = 'particulauno';

@@ -28,15 +28,37 @@ main{
     justify-content: center;
     width: 85%;
     height: 500px;
+    min-height: 500px;
     max-width: 1400px;
     margin: 30px auto 0 auto;
     border: 3px solid black;
     border-radius: 15px;
+    align-content: center;
 }
 .pelotica{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: aquamarine;
     border: 2px solid black;
+}
+.equis{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    top: -10px;
 }
