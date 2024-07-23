@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dinamic dom</title>
 </head>
 <body>
-
-    <img  class="fondo" src="movie-background-collage.jpg" alt="peli">
 
 
     <h1>TAREAS DEL DIA </h1>
 
     <div class="listarea">
-        <input  type="text" placeholder="agregar tarea" id="crear">
+        <input  type="text" placeholder="agregar tarea" id="input">
         <button id="btncrear">crear</button>
+        <button id="btnborrar">borrar</button>
     </div>
 
 
 
-    <div class="container">
-        <main id="main">
-        </main>
-    </div>
+    <main class="container">
+        <ul id="lista">
+           <!--  <li>
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text">tarea de español o ingles</p>
+                <i class="fa-solid fa-rectangle-xmark" data="eliminar" id="0"></i>
+
+            </li>  -->
+        </ul>
+    </main>
 
 
     <script src="app.js"></script>
