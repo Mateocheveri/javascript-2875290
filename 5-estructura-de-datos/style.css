@@ -1,0 +1,67 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo retro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #003a70; /* Color de fondo tipo Mega Man */
+}
+
+.card {
+    background-color: #000;
+    border: 4px solid #00aaff; /* Bordes color Mega Man */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: #fff;
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 4px solid #00aaff;
+}
+
+.card-body {
+    padding: 16px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #00aaff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #ddd;
+    margin: 0 0 20px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #00aaff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0077cc;
+}
+
+/* Estilo para fuentes retro (incluye la fuente de Google Fonts en tu HTML para usar esta fuente) */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
