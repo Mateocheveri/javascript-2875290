@@ -1,16 +1,21 @@
 body {
-    font-family: 'Press Start 2P', cursive; /* Fuente estilo retro */
-    display: flex;
+    font-family: 'Press Start 2P', cursive; 
+    /* display: agrid; */
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #003a70; /* Color de fondo tipo Mega Man */
+    background-color: #d5ebff; 
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
 }
 
 .card {
     background-color: #000;
-    border: 4px solid #00aaff; /* Bordes color Mega Man */
+    border: 4px solid #00aaff; 
     border-radius: 10px;
     overflow: hidden;
     width: 320px;
