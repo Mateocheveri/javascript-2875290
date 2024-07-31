@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(65, 65, 105);
+}
+
+.contenedor{
+    border: 2px red;
+    border-radius: 3px;
+}
