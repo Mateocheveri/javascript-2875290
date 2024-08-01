@@ -66,6 +66,49 @@ borrarItem ('carrito')
 }
 borrarTodo()  */
 
-const form = document.getElementById("form")
-const usuario = document.getElementById("nombre")
-const contraseña = document.getElementById("contraseña")
+const form = document.querySelector("#form")
+const usuario = document.querySelector("#nombre")
+const contraseña = document.querySelector("#contraseña")
+
+
+/* let userName = 'admin'
+let pass = 1234 */
+//registrar el dato de "user" en localstorage
+let user ={
+    userName: 'admin',
+    userPass: '1234',
+
+}
+
+
+/* localStorage.setItem('admin',userName)
+localStorage.setItem('pass',pass) */
+localStorage.setItem('user', JSON.stringify(user) )
+
+//inicio de sesiòn
+function validarUsuario(e){
+    e.preventDefault();
+
+    let currentUser = JSON.parse(localStorage.getItem('user'));
+
+    console.log(currentUser.userName);
+    console.log(currentUser.userPass);
+
+    console.log(Boolean(usuario.value === currentUser.userName));
+    console.log(Boolean(contraseña.value === currentUser.userPass));
+
+    if(usuario.value === currentUser.userName && contraseña.value === currentUser.userPass){
+        console.log('felicidades puedes entrar ✔')
+        window.location = "./userpage.html"
+    }
+    else{
+        console.log('sigue intentando')
+    }
+    form.reset()
+    
+    /* Boolean(1==="1")//false */
+}
+
+form.addEventListener('submit',validarUsuario)
+
+
