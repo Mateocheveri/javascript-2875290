@@ -74,16 +74,16 @@ const contraseña = document.querySelector("#contraseña")
 /* let userName = 'admin'
 let pass = 1234 */
 //registrar el dato de "user" en localstorage
-let user ={
+/* let user ={
     userName: 'admin',
     userPass: '1234',
 
-}
+} */
 
 
 /* localStorage.setItem('admin',userName)
 localStorage.setItem('pass',pass) */
-localStorage.setItem('user', JSON.stringify(user) )
+/* localStorage.setItem('user', JSON.stringify(user) ) */
 
 //inicio de sesiòn
 function validarUsuario(e){
