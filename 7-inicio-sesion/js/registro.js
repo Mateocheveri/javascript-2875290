@@ -1,4 +1,4 @@
-const form = document.querySelector("#form")
+const form = document.querySelector("#post")
 const usuario = document.querySelector("#nombre")
 const contraseña = document.querySelector("#contra")
 

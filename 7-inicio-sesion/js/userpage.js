@@ -1,6 +1,14 @@
+const saludo = document.querySelector('#saludo');
+
+let nombreUser = JSON.parse( localStorage.getItem ('user') );
+
+saludo.innerHTML = `🐱‍👓 hola, bienvenido ${nombreUser.userName}  🐱‍👓`
+
+
+
+
 
 const container = document.querySelector('.container');
-
 
 peliculas.forEach(element => {
     let card = document.createElement('div') 
@@ -23,3 +31,16 @@ peliculas.forEach(element => {
     /* comillas invertidas */
     container.appendChild(card);
 })
+
+
+
+
+const btn = document.querySelector("#btn");
+
+function cerrar (){
+
+    window.location = "../vistas/cerrar.html"
+}
+ 
+
+btn.addEventListener("click",cerrar)

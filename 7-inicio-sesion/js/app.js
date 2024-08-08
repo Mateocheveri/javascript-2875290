@@ -1,31 +1,21 @@
-const form = document.querySelector("#form")
+const form = document.querySelector("#post")
 const usuario = document.querySelector("#nombre")
 const contraseña = document.querySelector("#contra")
 
 
-/* let user ={
-    userName: 'admin',
-    userPass: '1234',
-} 
-
-
-
-localStorage.setItem('user', JSON.stringify(user) )  */
-
-function validarUsuario(e){
+function usuarioValido(e){
     e.preventDefault();
 
     let currentUser = JSON.parse(localStorage.getItem('user'));
 
-    console.log(currentUser.userName);
-    console.log(currentUser.userPass);
+ /*    console.log(currentUser.userName);
+    console.log(currentUser.userPass); */
 
     console.log(Boolean(usuario.value === currentUser.userName));
     console.log(Boolean(contraseña.value === currentUser.userPass));
 
     if(usuario.value === currentUser.userName && contraseña.value === currentUser.userPass){
-        /* console.log('felicidades puedes entrar ✔') */
-        window.location = "../userpage.html"
+        window.location = "./vistas/userpage.html"
     }
     else{
         console.log('sigue intentando')
@@ -34,4 +24,4 @@ function validarUsuario(e){
     
 }
 
-form.addEventListener('submit', validarUsuario)
+form.addEventListener('submit', usuarioValido);
