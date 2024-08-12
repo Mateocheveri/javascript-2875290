@@ -1,8 +1,7 @@
 const container = document.querySelector('.container');
-
 fetch('https://jsonplaceholder.typicode.com/users/')
-  .then(respuesta => respuesta.json())
-  .then(datos => {
+.then(respuesta => respuesta.json())
+.then(datos => {
     datos.forEach( Element => {
         //name: leanne ...
         //username: bret
@@ -20,7 +19,7 @@ fetch('https://jsonplaceholder.typicode.com/users/')
 
         let h1 = document.createElement('h1')
         h1.textContent = Element.name;
-        
+
         let p = document.createElement('p')
         p.textContent = Element.username;
 
@@ -29,4 +28,4 @@ fetch('https://jsonplaceholder.typicode.com/users/')
         container.appendChild(box);
 
     })
-  })
+})
