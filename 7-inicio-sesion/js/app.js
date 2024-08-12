@@ -8,9 +8,6 @@ function usuarioValido(e){
 
     let currentUser = JSON.parse(localStorage.getItem('user'));
 
- /*    console.log(currentUser.userName);
-    console.log(currentUser.userPass); */
-
     console.log(Boolean(usuario.value === currentUser.userName));
     console.log(Boolean(contraseña.value === currentUser.userPass));
 

@@ -4,6 +4,7 @@ const contraseña = document.querySelector("#contra")
 
 function registrarUser(e){
     e.preventDefault();
+    
     let user = {
         userName: usuario.value,
         userPass: contraseña.value,
