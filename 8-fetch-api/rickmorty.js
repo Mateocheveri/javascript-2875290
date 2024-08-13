@@ -17,7 +17,7 @@ fetch(url)
                 <h2 class="card-title">${Element.name}</h2>
                 <h3 class="card-text"><i class='bx bxs-circle'></i>${Element.status}-${Element.species}</h3>
                 <h5 class="card-subtitle">Last known location:</h5>
-                <p class="card-text"></p>
+                <p class="card-text">${Element.location.name}</p>
                 <h5 class="card-subtitle">first seen in:</h5>
                 <p class="card-text"></p>                
             </div>
