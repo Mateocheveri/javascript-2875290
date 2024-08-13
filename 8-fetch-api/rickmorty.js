@@ -9,9 +9,20 @@ fetch(url)
         box.classList.add("box")
 
         box.innerHTML = `
-        <img src="${Element.image}" width="200">
-        <p>${Element.name}</p>
+        
+        <div class="card">
+            <img src="${Element.image}" class="card-img">
+
+            <div class="card-info">
+                <h2 class="card-title">${Element.name}</h2>
+                <h3 class="card-text"><i class='bx bxs-circle'></i>${Element.status}-${Element.species}</h3>
+                <h5 class="card-subtitle">Last known location:</h5>
+                <p class="card-text"></p>
+                <h5 class="card-subtitle">first seen in:</h5>
+                <p class="card-text"></p>                
+            </div>
+        </div>
         `
         container.appendChild(box)
-    })
+    }) 
 })
