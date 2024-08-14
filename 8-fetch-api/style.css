@@ -34,10 +34,19 @@ body{
     min-width: 280px;
 }
 .bxs-circle{
-    color: rgb(28, 221, 28);
     width: 20px;
-    
 }
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.grey{
+    background-color: gray;
+}
+
+
 .card-title {
     font-size: 1.5em;
     margin: 10px -15px;
