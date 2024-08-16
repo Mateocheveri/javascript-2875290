@@ -5,7 +5,7 @@ let peliculas = [
         year: 1983,
         director: 'Ridley Scott',
         guionista: 'Philip K. Dick',
-        genero: ['accion','ciencia ficciòn','drama'],
+        genero: ['Acción','Ciencia ficciòn','Drama'],
         imagen: 'https://images.justwatch.com/poster/53055384/s166/blade-runner.webp'
     },
     {
@@ -14,7 +14,7 @@ let peliculas = [
         year: 1999,
         director: 'David Fincher',
         guionista: 'Jim Uhls',
-        genero: ['Thriller psicològico','Comedia negra'],
+        genero: ['Thriller psicològico','Comedia negra','Acción'],
         imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4I6FAlfWVwjpV6kkM2vzPL_CfAgqdHQD2rw&s'
     },
     {
@@ -23,7 +23,7 @@ let peliculas = [
         year: 1998,
         director: ['Ethan Coen','Joel Coen'],
         guionista: ['Ethan Coen','Joel Coen'],
-        genero: ['Accion','Comedia','Crimen','Deportes'],
+        genero: ['Acción','Comedia','Crimen','Deportes'],
         imagen: 'https://i.ebayimg.com/images/g/8x8AAOSw2StghuRs/s-l640.jpg'
     },
     {
@@ -41,7 +41,7 @@ let peliculas = [
         year: 2001,
         director: 'Richard Kelly',
         guionista: 'Richard Kelly',
-        genero: ['Drama','Ciencia ficción','Thriller'],
+        genero: ['Drama','Ciencia ficciòn','Thriller'],
         imagen: 'https://images.justwatch.com/poster/306662820/s166/donnie-darko.webp'
     },
     {
@@ -59,7 +59,7 @@ let peliculas = [
         year: 2021,
         director: 'Denis Villeneuve',
         guionista: ['Denis Villeneuve', 'Jon Spaihts', 'Eric Roth'],
-        genero: ['Ciencia ficción', 'Aventura'],
+        genero: ['Ciencia ficciòn', 'Aventura'],
         imagen: 'https://images.justwatch.com/poster/285570933/s166/dune-2021.webp'
     },
     {
@@ -95,7 +95,7 @@ let peliculas = [
         year: 2009,
         director: 'James Cameron',
         guionista: 'James Cameron',
-        genero: ['Ciencia ficción', 'Aventura'],
+        genero: ['Ciencia ficciòn', 'Aventura'],
         imagen: 'https://images.justwatch.com/poster/126330821/s166/avatar.webp'
     },
     {
@@ -131,7 +131,7 @@ let peliculas = [
         year: 1999,
         director: ['Lana Wachowski', 'Lilly Wachowski'],
         guionista: ['Lana Wachowski', 'Lilly Wachowski'],
-        genero: ['Acción', 'Ciencia ficción'],
+        genero: ['Acción', 'Ciencia ficciòn'],
         imagen: 'https://images.justwatch.com/poster/105083948/s166/matrix.webp'
     },
     {
@@ -140,7 +140,7 @@ let peliculas = [
         year: 1972,
         director: 'Francis Ford Coppola',
         guionista: ['Mario Puzo', 'Francis Ford Coppola'],
-        genero: ['Crimen', 'Drama', 'acción'],
+        genero: ['Crimen', 'Drama', 'Acción'],
         imagen: 'https://images.justwatch.com/poster/123122757/s166/el-padrino.webp'
     },
     {
@@ -176,7 +176,7 @@ let peliculas = [
         year: 2017,
         director: 'Denis Villeneuve',
         guionista: ['David Peoples', 'Hampton Fancher'],
-        genero: ['Ciencia ficción', 'Acciön', 'Drama'],
+        genero: ['Ciencia ficciòn', 'Acción', 'Drama'],
         imagen: 'https://images.justwatch.com/poster/129662494/s166/blade-runner-2049.webp'
     },
     {
@@ -194,7 +194,7 @@ let peliculas = [
         year: 1941,
         director: 'Orson Welles',
         guionista: ['Orson Welles','Herman J. Mankiewicz','John Houseman','Mollie Kent','Roger Q. Denny'],
-        genero: ['Drama', 'Accion', 'Suspenso'],
+        genero: ['Drama', 'Acción', 'Suspenso'],
         imagen: 'https://images.justwatch.com/poster/308672978/s166/ciudadano-kane.webp'
     },
     {
@@ -203,7 +203,7 @@ let peliculas = [
         year: 1962,
         director: 'Masaki Kobayashi',
         guionista: 'Shinobu Hashimoto',
-        genero: ['Acción', 'drama'],
+        genero: ['Acción', 'Drama'],
         imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGm4w4G2TJ2WLrBdFvWalBNtBPxHoJWL8chQ&s'
     },
     {
@@ -212,7 +212,7 @@ let peliculas = [
         year: 1992,
         director: 'Quentin Tarantino',
         guionista: 'Quentin Tarantino',
-        genero: ['Crimen', 'Accion', 'Policial'],
+        genero: ['Crimen', 'Acción', 'Policial'],
         imagen: 'https://images.justwatch.com/poster/17147903/s166/reservoir-dogs.webp'
     },
     {
@@ -221,7 +221,7 @@ let peliculas = [
         year: 1995,
         director: 'Mamoru Oshii',
         guionista: 'Masamune Shirow',
-        genero: ['Ciencia ficción','Animacion','drama','Accion'],
+        genero: ['Ciencia ficciòn','Animación','Drama','Acción'],
         imagen: 'https://images.justwatch.com/poster/305932791/s166/ghost-in-the-shell.webp'
     },
     {
@@ -230,7 +230,7 @@ let peliculas = [
         year: 1976,
         director: 'Martin Scorsese',
         guionista: "Paul Schrader",
-        genero: ['Drama','Acción','policial'],
+        genero: ['Drama','Acción','Policial'],
         imagen: 'https://images.justwatch.com/poster/306613941/s166/mobeomtaegsi.webp'
     },
     {
@@ -239,7 +239,7 @@ let peliculas = [
         year: 1988,
         director: 'Katsuhiro Otomo',
         guionista: ['Katsuhiro Otomo', 'Izo Hashimoto'],
-        genero: ['Animación', 'Ciencia ficción'],
+        genero: ['Animación', 'Ciencia ficciòn'],
         imagen: 'https://images.justwatch.com/poster/307272495/s166/akira.webp'
     },
     {
@@ -257,7 +257,7 @@ let peliculas = [
         year: 1990,
         director: 'Peter Weir',
         guionista: 'Tom Schulman',
-        genero: ['tragicomedia','Drama'],
+        genero: ['Tragicomedia','Drama'],
         imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqdLb3DtOUpWFqTKu-lxQWVDncI3hMSgP9yQ&s'
     },
     {

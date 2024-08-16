@@ -10,6 +10,8 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #ffffff; 
+    background-image: url(surtido-elementos-cine-sobre-fondo-rojo-espacio-copia.jpg);
+    background-attachment: fixed; 
 }
 .container{
     display: flex;
@@ -18,19 +20,21 @@ body {
     overflow: auto;
     padding: 20px;
 }
+
+
 .card {
-    background-color: #000;
     border: 2px solid #000000; 
     border-radius: 25px;
     overflow: hidden;
-    width: 320px;
+    width: 328px;
+    backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: relative;
     color: #fff;
 }
 .card:hover{
     box-shadow: 5px 5px 20px rgba(49, 255, 245, 0.5);
-    transform: translateY(-5%);
+    transform: scale(1.07); 
 }
 
 .card-header {
@@ -49,15 +53,14 @@ body {
     padding: 16px;
     text-align: center;
     min-height: 269px;
-    background-color: #727070bb;
+    background-color: #1a82a18e;
 }
 
 .card-title {
     font-size: 1.5em;
     margin: 10px -15px;
-    color: #3b3b3b;
-    text-shadow: 1px 1px 2px #2b252594;
-    background-color: #d8f3ffd3;
+    color: #273dbb;
+    background-color: #bfbfccab;
 }
 
 .card-text {
@@ -65,7 +68,3 @@ body {
     color: #ddd;
     margin: 0 0 20px;
 }
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
