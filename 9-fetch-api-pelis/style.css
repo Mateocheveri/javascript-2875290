@@ -13,6 +13,12 @@ body {
     background-image: url(surtido-elementos-cine-sobre-fondo-rojo-espacio-copia.jpg);
     background-attachment: fixed; 
 }
+
+#buscador{
+    margin: auto;
+    width: 20%;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;

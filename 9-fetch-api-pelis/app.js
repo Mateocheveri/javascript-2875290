@@ -3,7 +3,7 @@ const container = document.querySelector('.container');
 const buscador = document.querySelector('#buscador')
 const textoBusqueda = document.querySelector('#busqueda')
 const listagenero = document.querySelector('#listaGenero')
-let resultado;
+
 
 
 
@@ -47,7 +47,7 @@ function filtrar (e){
 
     if(listagenero.value != "All"){
 
-        filtro = filtro.filter( word => word.genero == listagenero.value).filter(word => word.nombre.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
+        filtro = filtro.filter( peliculas => peliculas.genero.toString().toLowerCase().includes(listagenero.value.toLowerCase())).filter(peliculas => peliculas.nombre.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
       
 
         console.log(filtro)
@@ -57,17 +57,16 @@ function filtrar (e){
     else{
         
         if(textoBusqueda.value){
-           const filtro = resultado.filter(word => word.nombre.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
+           filtro = filtro.filter(peliculas => peliculas.nombre.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
            mostrarResults(filtro)
         }
         else{
-            mostrarResults(resultado)
+            mostrarResults(filtro)
         }
 
         textoBusqueda.value = ""
     }
 
-    mostrarResults(data.resultado)
 }
 
 buscador.addEventListener('submit' ,filtrar)
