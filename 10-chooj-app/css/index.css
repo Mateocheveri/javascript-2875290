@@ -1,0 +1,105 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: #57c0ce;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+/* poster presentacion*/
+#portada{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}  
+
+/* #btn{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: #000000;
+    text-align: center;
+    padding: 15px 15px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(38, 0, 255, 0.329);
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+#btn:hover{
+    background-color:rgb(56, 189, 223);
+    color: rgb(255, 255, 255);
+} */
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    overflow: auto;
+    padding: 20px;
+} */
+.card {
+    border: 2px solid #000000; 
+    border-radius: 25px;
+    overflow: hidden;
+    width: 328px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: #fff;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(49, 255, 245, 0.5);
+    transform: scale(1.07); 
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-body {
+    padding: 16px;
+    text-align: center;
+    min-height: 269px;
+    background-color: #1a82a18e;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 10px -15px;
+    color: #273dbb;
+    background-color: #bfbfccab;
+}
+
+.text {
+    font-size: 1em;
+    color: #ddd;
+    margin: 0 0 20px;
+}
+
+
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+  
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
