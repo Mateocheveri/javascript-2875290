@@ -14,6 +14,10 @@ header {
     font-size: 35px;
     color: white;
 }
+#busqueda{
+    height: 30px;
+    width: 400px;
+}
 
 
 /* poster presentacion*/
@@ -49,7 +53,6 @@ header {
     padding: 20px;
 } */
 .card {
-    border: 2px solid #000000; 
     border-radius: 25px;
     overflow: hidden;
     width: 328px;
@@ -59,7 +62,7 @@ header {
     color: #fff;
 }
 .card:hover{
-    box-shadow: 5px 5px 20px rgba(49, 255, 245, 0.5);
+    box-shadow: 5px 5px 20px rgba(114, 114, 114, 0.5);
     transform: scale(1.07); 
 }
 
