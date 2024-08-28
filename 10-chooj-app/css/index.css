@@ -8,27 +8,18 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
-    background-color: #57c0ce;
+    background-color: #b1e8ef;
     padding: 30px;
-    text-align: center;
     font-size: 35px;
     color: white;
+    display: flex;
+    justify-content: space-around;
 }
 #busqueda{
     height: 30px;
     width: 400px;
 }
-
-
-/* poster presentacion*/
-#portada{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}  
-
-/* #btn{
-    position: absolute;
+.btn{
     right: 30px;
     top: 5px;
     color: #000000;
@@ -41,10 +32,102 @@ header {
     cursor: pointer;
 
 }
-#btn:hover{
+.btn:hover{
     background-color:rgb(56, 189, 223);
     color: rgb(255, 255, 255);
-} */
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+.navbar a:hover {
+    background-color: #1dc3dd;
+}
+
+
+/* portada carrusel */
+#portada{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+}  
+#portada ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+#portada li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.texto-carrusel{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: #000000;
+}
+.texto-carrusel h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+#portada img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+} 
+
+@media(max-width: 991px){
+    body{
+        padding: 30px;
+    }
+    #portada{
+        width: 100%;
+    }
+    .texto-carrusel{
+        top: 50px;
+        padding: 0 25px;
+    }
+    .texto-carrusel h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .texto-carrusel p{
+        font-size: 15px;
+    }
+}
+
 /* .container{
     display: flex;
     flex-wrap: wrap;
@@ -52,6 +135,14 @@ header {
     overflow: auto;
     padding: 20px;
 } */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    overflow: auto;
+    padding: 20px;
+    justify-content: space-around;
+}
 .card {
     border-radius: 25px;
     overflow: hidden;
