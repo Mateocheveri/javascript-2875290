@@ -136,6 +136,7 @@ header {
     padding: 20px;
 } */
 .container{
+    margin: 100px;
     display: flex;
     flex-wrap: wrap;
     gap: 55px;
