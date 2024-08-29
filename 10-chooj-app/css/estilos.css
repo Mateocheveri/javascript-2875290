@@ -58,83 +58,15 @@ header {
 .navbar a:hover {
     background-color: #1dc3dd;
 }
-
-
-/* portada carrusel */
-#portada{
-    width: 1280px;
-    height: auto;
-    margin: 50px auto 0;
-    overflow: hidden;
-    animation-iteration-count: infinite;
-}  
-#portada ul{
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: slide 20s infinite alternate ease-in-out;
-}
-#portada li{
-    width: 100%;
-    list-style: none;
-    position: relative;
-}
-.texto-carrusel{
-    position: absolute;
-    text-align: center;
-    padding: 0 250px;
-    top: 250px;
-    color: #000000;
-}
-.texto-carrusel h2{
-    font-size: 45px;
-    margin-bottom: 35px;
-}
-#portada img{
-    width: 100%;
+/* Baner de estilos */
+#inicio{
+    color: aliceblue;
+    background-color: #777;
+    margin: 5%;
 }
 
-@keyframes slide{
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
+/* cards */
 
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
-} 
-
-@media(max-width: 991px){
-    body{
-        padding: 30px;
-    }
-    #portada{
-        width: 100%;
-    }
-    .texto-carrusel{
-        top: 50px;
-        padding: 0 25px;
-    }
-    .texto-carrusel h2{
-        font-size: 35px;
-        margin-bottom: 15px;
-    }
-    .texto-carrusel p{
-        font-size: 15px;
-    }
-}
-
-/* .container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 55px;
-    overflow: auto;
-    padding: 20px;
-} */
 .container{
     margin: 100px;
     display: flex;
@@ -149,9 +81,8 @@ header {
     overflow: hidden;
     width: 328px;
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: relative;
-    color: #fff;
+    color: #000000;
 }
 .card:hover{
     box-shadow: 5px 5px 20px rgba(114, 114, 114, 0.5);
@@ -166,21 +97,21 @@ header {
     padding: 16px;
     text-align: center;
     min-height: 269px;
-    background-color: #1a82a18e;
 }
 
 .title {
     font-size: 1.5em;
     margin: 10px -15px;
-    color: #273dbb;
-    background-color: #bfbfccab;
+    color: #0f8fdf;
 }
 
 .text {
     font-size: 1em;
-    color: #ddd;
+    color: #000000;
     margin: 0 0 20px;
 }
+
+
 
 
 
