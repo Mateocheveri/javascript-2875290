@@ -58,6 +58,7 @@ header {
 .navbar a:hover {
     background-color: #1dc3dd;
 }
+
 /* Baner de estilos */
 #inicio{
     color: aliceblue;
@@ -65,8 +66,30 @@ header {
     margin: 5%;
 }
 
-/* cards */
 
+/* ingreso de videos */
+.ingresovideos{
+    text-align: center;
+    color: #000000;
+}
+.ingresovideos h1{
+    color: #0f8fdf;
+}
+.ingresovideos button{
+    background-color: rgb(170, 31, 170);
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* cards */
 .container{
     margin: 100px;
     display: flex;
@@ -77,10 +100,8 @@ header {
     justify-content: space-around;
 }
 .card {
-    border-radius: 25px;
     overflow: hidden;
     width: 328px;
-    backdrop-filter: blur(20px);
     position: relative;
     color: #000000;
 }
@@ -91,6 +112,7 @@ header {
 
 .card-header {
     position: relative;
+    background-color: #777;
 }
 
 .card-body {
@@ -126,6 +148,7 @@ footer {
 }
 #redes{
     color: #1dc3dd;
+    font-size: 30px;
 }
   
 @media (max-width: 600px) {

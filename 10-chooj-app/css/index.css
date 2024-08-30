@@ -195,6 +195,7 @@ footer {
 }
 #redes{
     color: #1dc3dd;
+    font-size: 30px;
 }
   
 @media (max-width: 600px) {
