@@ -97,3 +97,9 @@ input {
     text-decoration: none;
     width: 100%;
 }
+@media (max-width: 500px) {
+    body{
+        width: 100%;
+        height: auto;
+    }
+}
