@@ -28,6 +28,26 @@ header {
     margin-top:25px;
     display: flex;
 }
+.hidden{
+    display: none;
+}
+#btnclose{
+    right: 30px;
+    top: 5px;
+    color: #000000;
+    text-align: center;
+    padding: 15px 15px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(38, 0, 255, 0.329);
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+#btnclose:hover{
+    background-color:rgb(56, 189, 223);
+    color: rgb(255, 255, 255);
+}
 .btn{
     right: 30px;
     top: 5px;

@@ -41,6 +41,5 @@ function cerrar (){
 
     window.location = "../vistas/cerrar.html"
 }
- 
 
 btn.addEventListener("click",cerrar)
