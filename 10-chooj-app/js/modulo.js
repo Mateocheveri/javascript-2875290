@@ -10,7 +10,7 @@ modulos.forEach(element => {
                 <img src="" alt="">
             </div>
             <div class="card-body">
-              <h1 class="title">${element.titulouno}</h1>
+              <h1 class="title">${element.titulouno[1]}</h1>
               <p class="text">${element.infouno}</p>
             </div>
         </div>
