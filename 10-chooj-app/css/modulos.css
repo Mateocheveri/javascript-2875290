@@ -120,16 +120,13 @@ header {
     padding: 20px;
     justify-content: space-around;
 }
-.card {
-    overflow: hidden;
+.card { 
+    border-radius: 25px;
     width: 328px;
     position: relative;
-    color: #000000;
+    color: #fff;
 }
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(114, 114, 114, 0.5);
-    transform: scale(1.07); 
-}
+
 
 .card-header {
     position: relative;

@@ -20,17 +20,14 @@ header {
     height: 30px;
     width: 400px;
 }
-#busqueda-dos{
+/* #busqueda-dos{
     
     width: 40%;
     margin: auto;
     visibility: hidden;
     margin-top:25px;
     display: flex;
-}
-.hidden{
-    display: none;
-}
+} */
 #btnclose{
     right: 30px;
     top: 5px;
@@ -102,8 +99,6 @@ header {
 .list a:hover {
     background-color: #1dc3dd;
 }
-
-
 /* portada carrusel */
 #portada{
     width: 1280px;

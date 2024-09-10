@@ -1,2 +1,2 @@
 localStorage.clear();
-window.location = "../vistas/iniciosesion.html"
+window.location = "../index.html"
