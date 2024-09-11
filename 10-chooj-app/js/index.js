@@ -34,10 +34,9 @@ modulos.forEach( element => {
             <div class="card-body">
               <h1 class="title">${element.nombre}</h1>    
               <p class="text">${element.descripcion}</p>
+              <a href="${element.link}">ver mas</a>
             </div>
-        
         </div>
-
     `
     container.appendChild(box)
 }) 

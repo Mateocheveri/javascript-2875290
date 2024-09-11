@@ -21,7 +21,7 @@ modulos.forEach(element => {
         ingreso.innerHTML = `
             <h1>${element.nombre}</h1>
             <p>${element.descripcion}</p>
-            <button><h3>inicia tu aventura -></h3></button>
+            <button ${element.video}><h3>inicia tu aventura -></h3></button>
         `
         
 
