@@ -17,6 +17,9 @@ header {
     justify-content: space-around;
     flex-flow: wrap;
 }
+.img{
+    cursor: pointer;
+}
 #busqueda{
     height: 30px;
     width: 400px;

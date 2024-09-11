@@ -29,7 +29,7 @@ modulos.forEach( element => {
     box.innerHTML = `
         <div class="card">
             <div class="card-header">
-                <img src="" alt="">
+                <img src="${element.imagen}" alt="">
             </div>
             <div class="card-body">
               <h1 class="title">${element.nombre}</h1>    

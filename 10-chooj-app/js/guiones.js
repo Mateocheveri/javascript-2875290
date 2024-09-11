@@ -1,6 +1,7 @@
 const container = document.querySelector('.container');
 const inicio = document.querySelector('#inicio');
 const ingresovideo = document.querySelector('.ingresovideos');
+const btn = document.querySelector('#btnvideo')
 
 
 modulos.forEach(element => {
@@ -21,7 +22,7 @@ modulos.forEach(element => {
        ingreso.innerHTML = `
            <h1>${element.nombre}</h1>
            <p>${element.descripcion}</p>
-           <button><h3>inicia tu aventura -></h3></button>
+           <button id="btnvideo"><a href="./curso.html">inicia tu aventura -></a></button>
        `
        
 
@@ -62,6 +63,11 @@ modulos.forEach(element => {
        inicio.appendChild(principal)
        ingresovideo.appendChild(ingreso)
        container.appendChild(card)
+
+       function abrirvideo(){
+            window.location = "../vistas/curso.html"
+       }
+       btn.addEventListener("click",abrirvideo)
    }
    
 })

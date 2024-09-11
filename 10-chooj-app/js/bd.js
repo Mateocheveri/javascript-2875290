@@ -11,7 +11,6 @@ let modulos = [
         infodos: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet tellus sed enim condimentum feugiat. Praesent at gravida nulla. Suspendisse potenti.",
         titulotres: "Revive",
         infotres: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet tellus sed enim condimentum feugiat. Praesent at gravida nulla. Suspendisse potenti.",
-        video: "./vistas/curso.html"
     },
     {
         id: 2,
@@ -25,7 +24,6 @@ let modulos = [
         infodos: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet tellus sed enim condimentum feugiat. Praesent at gravida nulla. Suspendisse potenti.",
         titulotres: "Revive",
         infotres: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet tellus sed enim condimentum feugiat. Praesent at gravida nulla. Suspendisse potenti.",
-        video: "./vistas/curso.html"
     },
     {
         id: 3,
@@ -39,7 +37,6 @@ let modulos = [
         infodos: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet tellus sed enim condimentum feugiat. Praesent at gravida nulla. Suspendisse potenti.",
         titulotres: "Revive",
         infotres: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet tellus sed enim condimentum feugiat. Praesent at gravida nulla. Suspendisse potenti.",
-        video: "./vistas/curso.html"
     },
     {
         id: 4,
@@ -53,6 +50,5 @@ let modulos = [
         infodos: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet tellus sed enim condimentum feugiat. Praesent at gravida nulla. Suspendisse potenti.",
         titulotres: "Revive",
         infotres: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet tellus sed enim condimentum feugiat. Praesent at gravida nulla. Suspendisse potenti.",
-        video: "./vistas/curso.html"
     }
 ]
