@@ -2,6 +2,25 @@ const btnstar = document.getElementById('btnstar');
 const btnregistro = document.getElementById('btnregistro');
 const btnclose = document.getElementById('btnclose');
 const container = document.querySelector('.container');
+const busqueda = document.querySelector('#busqueda')
+const buscador = document.querySelector('#buscador')
+
+
+function busque(e){
+   e.preventDefault();
+   console.log(videos)
+
+   let result = videos.filter(video => video.titulo.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,"").includes(busqueda.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,"")))
+   console.log(result)
+
+   localStorage.setItem("results",JSON.stringify(result))
+
+   window.location = "./vistas/busqueda-videos.html"
+
+}
+
+buscador.addEventListener('submit',busque)
+
 
 
 

@@ -4,6 +4,8 @@ const container = document.querySelector('.container');
 
 
 
+const resultado =JSON.parse(localStorage.getItem('results'))
+console.log(resultado)
 
 
 
@@ -45,15 +47,19 @@ function filtrar (e){
         
     if(textoBusqueda.value != "All"){
         filtro = filtro.filter(peliculas => peliculas.titulo.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
+        localStorage.setItem("results",JSON.stringify(filtro))
         mostrarResults(filtro)
+
     }
     else{
         mostrarResults(filtro)
     }
 
-        textoBusqueda.value = ""
+    textoBusqueda.value = ""
     
 
 }
 
 buscador.addEventListener('submit' ,filtrar)
+
+mostrarResults(resultado)
