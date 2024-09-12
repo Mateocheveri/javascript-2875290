@@ -17,7 +17,7 @@ let peliculas = [
         genero: ['Thriller psicològico','Comedia negra','Acción'],
         imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4I6FAlfWVwjpV6kkM2vzPL_CfAgqdHQD2rw&s'
     },
-    {
+    /* {
         id: 3,
         nombre: 'The Big Lebowski',
         year: 1998,
@@ -25,7 +25,7 @@ let peliculas = [
         guionista: ['Ethan Coen','Joel Coen'],
         genero: ['Acción','Comedia','Crimen','Deportes'],
         imagen: 'https://i.ebayimg.com/images/g/8x8AAOSw2StghuRs/s-l640.jpg'
-    },
+    }, */
     {
         id: 4,
         nombre: 'Lost in Translation',

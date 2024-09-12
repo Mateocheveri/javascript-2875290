@@ -15,7 +15,7 @@ function usuarioValido(e){
         window.location = "../index.html"
     }
     else{
-        console.log('sigue intentando')
+        console.log('volver a intentar')
     }
     form.reset()
     

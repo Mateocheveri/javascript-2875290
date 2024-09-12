@@ -5,28 +5,24 @@ const container = document.querySelector('.container');
 
 
 
+
 /* saludar a el usuario */
-const saludo = document.querySelector('#saludo');
 
-let nombreUser = JSON.parse( localStorage.getItem ('user') );
-
-saludo.innerHTML = `bienvenido ${nombreUser.userName}✔✔`
-
-
-/* funcion de btn */
-function cerrar (){
-    window.location = "./vistas/cerrar.html"
+function saludo(){
+    const saludo = document.querySelector('#saludo');
+    let nombreUser = JSON.parse( localStorage.getItem ('user') );
+    if(nombreUser){
+        saludo.innerHTML = `bienvenido ${nombreUser.userName}✔✔`
+    }
+    else{
+        saludo.innerHTML = '';
+    }
 }
-function iniciar (){
-    window.location = "./vistas/iniciosesion.html"
-}
-function registrar (){
-    window.location = "./vistas/registro.html"
-}
- 
-btnstar.addEventListener("click",iniciar)
-btnregistro.addEventListener("click",registrar)
-btnclose.addEventListener("click",cerrar)
+btnclose.addEventListener('click', saludo);
+
+document.addEventListener('DOMContentLoaded', saludo);
+
+   
 
 
 modulos.forEach( element => {

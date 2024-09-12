@@ -29,8 +29,11 @@ margin: 20px;
 width: 100%;
 border: 2px solid rgba(139, 139, 139, 0);
 }
+#container{
+    
+}
 
- .comunidad::marker{color: aqua;}
+.comunidad::marker{color: aqua;}
 .entradas{
     
     padding: 10px;
