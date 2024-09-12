@@ -5,6 +5,15 @@ const container = document.querySelector('.container');
 
 
 
+/* saludar a el usuario */
+const saludo = document.querySelector('#saludo');
+
+let nombreUser = JSON.parse( localStorage.getItem ('user') );
+
+saludo.innerHTML = `bienvenido ${nombreUser.userName}✔✔`
+
+
+/* funcion de btn */
 function cerrar (){
     window.location = "./vistas/cerrar.html"
 }
