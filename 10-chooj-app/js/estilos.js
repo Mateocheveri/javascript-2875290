@@ -1,6 +1,24 @@
  const container = document.querySelector('.container');
  const inicio = document.querySelector('#inicio');
  const ingresovideo = document.querySelector('.ingresovideos');
+ const busqueda = document.querySelector('#busqueda')
+ const buscador = document.querySelector('#buscador')
+ 
+ 
+ function busque(e){
+    e.preventDefault();
+    console.log(videos)
+ 
+    let result = videos.filter(video => video.titulo.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,"").includes(busqueda.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,"")))
+    console.log(result)
+ 
+    localStorage.setItem("results",JSON.stringify(result))
+ 
+    window.location = "../vistas/busqueda-videos.html"
+ 
+ }
+ 
+ buscador.addEventListener('submit',busque)
 
 
 modulos.forEach(element => {

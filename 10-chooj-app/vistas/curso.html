@@ -5,26 +5,11 @@
     <link rel="shortcut icon" href="./source/img/chooj-ico.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/curso.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>CURSOS</title>
 </head>
-    <style>
-        .body{
-            height: 100%;
-            
-        }
-
-
-        .progress{
-    margin-bottom: 50px;
-    height: 0px;
-    margin: 10px;
-    width: 100%;
-    border: 2px solid rgba(139, 139, 139, 0);
-}
-
-    </style>
-
+   
 <body>
     <header>
         <a href="../index.html">
@@ -59,7 +44,7 @@
     <section class="hamb" style="position: relative;" >
         <i class="fa-solid fa-bars"></i>
     <ul class="menu" >
-        <li><a href="../vistas/curso.html" target="_blank">Modulos</a></li>
+        <li><a href="../vistas/estilos.html" target="_blank">Modulos</a></li>
         <li><a href="../vistas/quienes-somos.html" target="_blank">Nosotros</a></li>
         <li><a href="../vistas/iniciosesion.html" target="_blank">Certificacion</a></li>
         <li><a href="../vistas/formulario.html"target="_blank">Contacto</a></li>
@@ -68,45 +53,55 @@
 
     </section>
 
-
     <div class="progress">
         <div></div>
     </div>
     
 <main>
-    <div class="container-uno">
-        <ul class="list" style=" position: relative;">
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
 
-        </ul>
+    <!-- <iframe id="videoPlayer" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
-        
+
+
+    <!-- LISTA DE VIDEOS -->
+    <div id="videoList">
+        <!-- La lista de videos se llenará con JavaScript -->
+    </div>
+
+
+
+    <div class="container-uno">        
+
+        <div id="video-container" style=" width: 70%; margin: auto;">
+
+            <iframe   id="videoPlayer"  src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen width="800" height="600">
+
+            </iframe>
+            <!-- <video id="video-player" controls style="width: 1200px;">
+                <source src="" type="video/mp4" >
+                Tu navegador no soporta el elemento de video.
+            </video> -->
+            <!-- <img class="video" id="vide-player" src="../assets/video-img2.jpg"  alt=""> -->
+        </div>
 
         <!-- video reference -->
-        <img class="video" src="../assets/video-img2.jpg"  alt="">
-    </div>
+       
+  <!--   </div>
     <div class="container-tres">
         <ul class="list-dos" style=" position: relative;">
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
-            <li>cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
 
         </ul>
 
 
-    </div>
+    </div> -->
 
 
 </main>
@@ -139,7 +134,7 @@
 
 
 
-
-<script src="../js/index.js"></script>
+<script src="../js/curso.js"></script>
+<!-- <script src="../js/index.js"></script> -->
 </body>
 </html>

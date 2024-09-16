@@ -46,7 +46,7 @@ function filtrar (e){
 
         
     if(textoBusqueda.value != "All"){
-        filtro = filtro.filter(peliculas => peliculas.titulo.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
+        filtro = filtro.filter(videos => videos.titulo.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
         localStorage.setItem("results",JSON.stringify(filtro))
         mostrarResults(filtro)
 

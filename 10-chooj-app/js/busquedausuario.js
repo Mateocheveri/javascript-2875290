@@ -4,6 +4,15 @@ const container = document.querySelector('#container');
 
 
 
+
+
+const resultado =JSON.parse(localStorage.getItem('results'))
+console.log(resultado)
+
+
+
+
+
 function mostrarResults(peliculas){
     peliculas.forEach( element => {
 
